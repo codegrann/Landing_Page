@@ -1,0 +1,89 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1100px;
+    /* min-width:600px; */
+    border: 1px solid grey;
+}
+header{
+    color: #ffffff;
+    background-color: #284b63;
+    padding: 80px 0;
+    text-align: center;
+}
+header h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+}
+header p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+}
+header button{
+    padding: 0.25rem;
+    color: #ffffff;
+    background-color: #429b9b;
+    font-family: sans-serif;
+    font-size: 9pt;
+    border-radius: 2px;
+    border: none;
+}
+section{
+    padding: 40px 0;
+    text-align: center;
+}
+.features{
+    color: #010d2e;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: clamp(5pt, 8pt, 12pt);
+    padding: 4rem 0 4rem 0;
+}
+.quote{
+    color: #ffffff;
+    background-color: #549DA0;
+}
+.quote p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    font-weight: 500;
+
+}
+.quote p em{
+    font-size: 9pt;
+}
+footer{
+    padding: 32px 0;
+    color: #868686;
+    background-color: #353535;
+    text-align: center;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    
+}
+footer div p{
+    margin: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+}
+footer p{
+    font-size: 6pt;
+}
+
+
+@media (max-width:500px){
+    header h1{
+        font-size: 15pt;
+    }
+    header p{
+        font-size: 6pt;
+    }
+    header button{
+        font-size: 5pt;
+    }
+}
